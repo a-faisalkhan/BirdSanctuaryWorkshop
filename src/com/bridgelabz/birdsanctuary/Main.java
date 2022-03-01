@@ -28,7 +28,8 @@ public class Main {
 	    System.out.println("Printing the birds after removal");
 	    
 	    userInterface.print(birdRepository.getBirdList());
+	    
+	    userInterface.printAllFlyableBirds(birdRepository.getBirdList()); 
+	    
 	}
-	
-
 }
