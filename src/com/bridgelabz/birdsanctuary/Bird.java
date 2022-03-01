@@ -22,5 +22,4 @@ public class Bird {
 	public void swim() {
 		System.out.println(getClass().getSimpleName() + " can swim");
 	}
-	
 }

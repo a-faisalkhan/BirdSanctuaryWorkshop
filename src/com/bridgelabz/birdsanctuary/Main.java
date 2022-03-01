@@ -30,6 +30,5 @@ public class Main {
 	    userInterface.print(birdRepository.getBirdList());
 	    
 	    userInterface.printAllFlyableBirds(birdRepository.getBirdList()); 
-	    
 	}
 }
